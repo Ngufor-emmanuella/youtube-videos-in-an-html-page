@@ -1,0 +1,48 @@
+h1{
+    color: red;
+    font-weight:bolder;
+    text-align:center;
+    background-color:darkred;
+    width:40%;
+    margin-left:350px;
+    
+}
+body{
+    background-color:beige;
+    margin:40px;
+}
+/* to remove bullets from ul and make it clickable,to prevent nav bar from scrolling 
+with the page  */
+ul{
+    list-style-type:none;
+    margin:0;
+    position:fixed;
+    bottom:0;
+    
+}
+.active{
+    background-color:red ;
+}
+/* to make it hover */
+li a:hover{
+    background-color:blue;
+} 
+/* to make the nav bar be horizontal*/
+li{
+     display:inline;
+     padding:10px;
+     font-weight:bolder;
+     font-size:larger;
+    
+}
+/* to make the placeholder be at the top*/
+input{
+    position:fixed;
+    top:0;
+    width:1000px;
+  
+   padding:4px;
+}
+iframe{
+    float:right;
+}
